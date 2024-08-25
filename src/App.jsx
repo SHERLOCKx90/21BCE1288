@@ -11,7 +11,7 @@ const MyApp = () => {
     try {
       const parsedJson = JSON.parse(jsonText);
 
-      const response = await fetch('http://52.224.54.204:8010/bfhl', {
+      const response = await fetch('https://api-testbajaj.evanke.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
